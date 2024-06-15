@@ -1,0 +1,53 @@
+.gradient-background{
+    background: linear-gradient(45deg, #c3cfe2 0%, #c3cfe2 50%, #f5f7fa 100%);
+    background-size: 200% 200%;
+    animation: gradient-animation-elegant 25s ease infinite;
+}
+  
+@keyframes gradient-animation{
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+.gradient-background-pastel {
+    background: linear-gradient(225deg, #ff9a9e 0%, #fad0c4 50%, #fad0c4 100%);
+    background-size: 200% 200%;
+    animation: gradient-animation-pastel 20s ease infinite;
+}
+  
+@keyframes gradient-animation-pastel {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+.titleone{
+    display: flex;
+    justify-content: center;
+}
+.titleone h1{
+    font-size: 3rem;
+}
+.project{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}  
+.gradient-background-vibrant {
+    background: linear-gradient(60deg, #ff758c 0%, #ff7eb3 50%, #ffd1ff 100%);
+    background-size: 200% 200%;
+    animation: gradient-animation-vibrant 10s ease infinite;
+  }
+  
+  @keyframes gradient-animation-vibrant {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
+.card{
+    border-color: black;
+  }
+svg{
+    color: black;
+}
